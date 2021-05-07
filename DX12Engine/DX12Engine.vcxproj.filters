@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{76003932-5001-4035-ab9b-cdd1249bf218}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{f0d3fd1f-4018-486e-894b-0eddfe436113}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{a9a8697d-aefe-4399-a699-6427a486406f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinMain">
+      <UniqueIdentifier>{75f2d8d8-388f-4e42-bbfa-d077bb809f4d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\RComponent.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\REntity.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\RGame.cpp">
+      <Filter>Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\TestComponent.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Test\TestGame.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain\WinMain.cpp">
+      <Filter>WinMain</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\RComponent.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\REntity.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\RGame.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\TestComponent.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+    <ClInclude Include="Test\TestGame.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
